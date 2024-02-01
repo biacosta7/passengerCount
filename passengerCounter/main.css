@@ -1,0 +1,72 @@
+body {
+    background-image: url("img/subway.jpg");
+    background-size: 1500px;
+    background-position-y: -40px;
+    background-position-x: -30px;
+}
+
+.box {
+    margin-left: 25px;
+    margin-top: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    max-width: 470px
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:white;
+}
+
+h2 {
+    font-size: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    margin-left: 180px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+#increment-btn {
+    background: #eed167;
+    position: relative;
+    text-align: center;
+    color: #8c0303f8;
+    font-size: 18px;
+}
+
+#save-btn {
+    background: lightblue;
+    color: #8c0303f8;
+    font-size: 18px;
+}
+
+#save-el {
+    color: lightblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+
+.shape{
+    margin-top: 60px;
+    height: 600px;
+    width: 700px;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background: #8c0303f8;
+
+}
